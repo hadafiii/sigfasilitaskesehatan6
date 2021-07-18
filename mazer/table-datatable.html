@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Tabel Kabupaten Tegal</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/vendors/simple-datatables/style.css">
+
+    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <div class="d-flex justify-content-between">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo2.png" alt="Logo" srcset=""></a>
+                        </div>
+                        <div class="toggler">
+                            <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu">
+                        <li class="sidebar-title">Menu</li>
+
+                        <li class="sidebar-item  ">
+                            <a href="index.html" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-item active ">
+                            <a href="table-datatable.html" class='sidebar-link'>
+                                <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                                <span>Data table</span>
+                            </a>
+                        </li>
+
+ 
+                    </ul>
+                </div>
+                <button class="sidebar-toggler btn x"><i data-feather="x"></i></button>
+            </div>
+        </div>
+        <div id="main">
+            <header class="mb-3">
+                <a href="#" class="burger-btn d-block d-xl-none">
+                    <i class="bi bi-justify fs-3"></i>
+                </a>
+            </header>
+
+            <div class="page-heading">
+                <div class="page-title">
+                    <div class="row">
+                        <div class="col-12 col-md-6 order-md-1 order-last">
+                            <h3>Tabel</h3>
+                            <p class="text-subtitle text-muted">.</p>
+                        </div>
+                        <div class="col-12 col-md-6 order-md-2 order-first">
+                            <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">DataTable</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Jumlah Fasilitas Kesehatan Kabupaten Tegal 2017
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Kecamatan</th>
+                                        <th>Rumah Sakit</th>
+                                        <th>Puskesmas</th>
+                                        <th>Klinik</th>
+                                        <th>Posyandu</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Margasari</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>-</td>
+                                        <td>87</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Bumijawa</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>102</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Bojong</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Balapulang</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>5</td>
+                                        <td>109</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Pagerbarang</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>54</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Lebaksiu</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Jatinegara</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Kedungbanteng</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>56</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Pangkah</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>101</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Slawi</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>5</td>
+                                        <td>70</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Dukuhwaru</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>67</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Adiwerna</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>6</td>
+                                        <td>118</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Dukuhturi</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>98</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Talang</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>78</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Tarub</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>-</td>
+                                        <td>91</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Kramat</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Suradadi</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>82</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Warureja</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>43</td>
+                                    </tr>
+                                    
+                                    
+                                </tbody>
+                            </table>
+                            <strong><div class="dataTable-info">Source Url: https://tegalkab.bps.go.id/indicator/30/231/1/jenis-fasilitas-kesehatan.html</div></strong>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Jumlah Fasilitas Kesehatan Kabupaten Tegal 2018
+                        </div>
+                        <div class="dataTable-top">
+    <div class="dataTable-dropdown">
+        <select class="dataTable-selector form-select">
+            <option value="5">5</option>
+            <option value="10" selected="">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+        </select><label>entries per page</label>
+    </div>
+    <div class="dataTable-search">
+        <input class="dataTable-input" placeholder="Search..." type="text">
+    </div>
+</div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Kecamatan</th>
+                                        <th>Rumah Sakit</th>
+                                        <th>Puskesmas</th>
+                                        <th>Klinik</th>
+                                        <th>Posyandu</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Margasari</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>-</td>
+                                        <td>87</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Bumijawa</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>102</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Bojong</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Balapulang</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>5</td>
+                                        <td>109</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Pagerbarang</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>54</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Lebaksiu</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Jatinegara</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Kedungbanteng</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>56</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Pangkah</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>101</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Slawi</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>5</td>
+                                        <td>70</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Dukuhwaru</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>67</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Adiwerna</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>6</td>
+                                        <td>118</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Dukuhturi</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>98</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Talang</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>78</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Tarub</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>-</td>
+                                        <td>91</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Kramat</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Suradadi</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>82</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Warureja</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>43</td>
+                                    </tr>
+                                    
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </section>
+
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Jumlah Fasilitas Kesehatan Kabupaten Tegal 2019
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Kecamatan</th>
+                                        <th>Rumah Sakit</th>
+                                        <th>Puskesmas</th>
+                                        <th>Klinik</th>
+                                        <th>Posyandu</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Margasari</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>87</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Bumijawa</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>102</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Bojong</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>1</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Balapulang</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>109</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Pagerbarang</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>54</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Lebaksiu</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Jatinegara</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>92</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Kedungbanteng</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>56</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Pangkah</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>101</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Slawi</td>
+                                        <td>3</td>
+                                        <td>1</td>
+                                        <td>9</td>
+                                        <td>70</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Dukuhwaru</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>67</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Adiwerna</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>7</td>
+                                        <td>118</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Dukuhturi</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>98</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Talang</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>78</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Tarub</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                        <td>-</td>
+                                        <td>91</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Kramat</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>89</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Suradadi</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>2</td>
+                                        <td>82</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Warureja</td>
+                                        <td>-</td>
+                                        <td>1</td>
+                                        <td>-</td>
+                                        <td>43</td>
+                                    </tr>
+                                    
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="section">
+                    <div class="card">
+                        <div class="card-header">
+                            Jumlah Penduduk Kabupaten Tegal
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped" id="table1">
+                                <thead>
+                                    <tr>
+                                        <th>No</th>
+                                        <th>Kecamatan</th>
+                                        <th>2017</th>
+                                        <th>2018</th>
+                                        <th>2019</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Margasari</td>
+                                        <td>95,838</td>
+                                        <td>96,062</td>
+                                        <td>107,485</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Bumijawa</td>
+                                        <td>84,549</td>
+                                        <td>84,744</td>
+                                        <td>93,896</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Bojong</td>
+                                        <td>62,072</td>
+                                        <td>62,197</td>
+                                        <td>71,500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Balapulang</td>
+                                        <td>82,040</td>
+                                        <td>82,218</td>
+                                        <td>92,293</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Pagerbarang</td>
+                                        <td>52,684</td>
+                                        <td>52,794</td>
+                                        <td>62,590</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Lebaksiu</td>
+                                        <td>82,952</td>
+                                        <td>84,103</td>
+                                        <td>95,055</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Jatinegara</td>
+                                        <td>54,133</td>
+                                        <td>54,231</td>
+                                        <td>59,358</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Kedungbanteng</td>
+                                        <td>40,440</td>
+                                        <td>40,512</td>
+                                        <td>45,208</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Pangkah</td>
+                                        <td>101,064</td>
+                                        <td>101,602</td>
+                                        <td>111,908</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Slawi</td>
+                                        <td>71,795</td>
+                                        <td>72,636</td>
+                                        <td>77,349</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Dukuhwaru</td>
+                                        <td>59,677</td>
+                                        <td>60,075</td>
+                                        <td>67,442</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Adiwerna</td>
+                                        <td>119,751</td>
+                                        <td>119,966</td>
+                                        <td>129,751</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Dukuhturi</td>
+                                        <td>89,029</td>
+                                        <td>89,187</td>
+                                        <td>98,042</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Talang</td>
+                                        <td>101,558</td>
+                                        <td>103,040</td>
+                                        <td>103,030</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Tarub</td>
+                                        <td>78,266</td>
+                                        <td>78,843</td>
+                                        <td>85,872</td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Kramat</td>
+                                        <td>110,591</td>
+                                        <td>112,805</td>
+                                        <td>113,914</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Suradadi</td>
+                                        <td>81,623</td>
+                                        <td>81,769</td>
+                                        <td>92,063</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Warureja</td>
+                                        <td>60,324</td>
+                                        <td>60,441</td>
+                                        <td>66,331</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                            <strong><div class="dataTable-info">
+                                <li>Sumber: Proyeksi Penduduk Indonesia 2010–2035</li>
+                                <li>Sumber: https://disdukcapil.tegalkab.go.id/data/jumlah_penduduk/201902</li>
+                            </div></strong>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <footer>
+                <div class="footer clearfix mb-0 text-muted">
+                    <div class="float-start">
+                        <p>2021 &copy; Hadafi</p>
+                    </div>
+                    <div class="float-end">
+                        <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
+                                href="https://instagram.com/vidavi00">Muhammad Shidqi Hadafi</a></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/vendors/simple-datatables/simple-datatables.js"></script>
+    <script>
+        // Simple Datatable
+        let table1 = document.querySelector('#table1');
+        let dataTable = new simpleDatatables.DataTable(table1);
+    </script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
